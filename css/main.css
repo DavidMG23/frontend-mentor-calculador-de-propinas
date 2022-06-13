@@ -1,0 +1,121 @@
+:root {
+   --color-Principal: #21cfb8;
+   --color-V_oscuro: #0a5d64;
+   --color-V_oscuro2: #5e7a7d;
+   --color-V_oscuro3: #7f9c9f;
+   --color-V_claro: #c5e4e7;
+   --color-Blanco2: #f4fafa;
+   --color-Blanco: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+html, body {
+   height: 100vh;
+   min-width: 300px;
+}
+
+body {
+   background-color: var(--color-V_claro);
+   font-family: 'Space Mono', monospace;
+   font-size: 22px;
+   display: flex;
+   align-items: center;
+}
+.title {
+   color: var(--color-V_oscuro);
+   text-align: center;
+   font-size: 1.5rem;
+   margin: 1rem auto;
+}
+hr {
+   border: 1px solid var(--color-V_oscuro);
+}
+.subtitle {
+   font-size: 1rem;
+   font-weight: bold;
+   color: var(--color-V_oscuro);
+}
+p {
+   font-size: .8rem;
+   color: var(--color-Blanco2);
+}
+p span{
+   color: var(--color-V_claro);
+}
+article {
+   background-color: var(--color-Blanco);
+   width: 100%;
+   max-width: 800px !important;
+   min-width: 320px;
+   border-radius: 1rem;
+   margin: 100px auto;
+}
+.leftUP {
+   padding: 1.5rem;
+}
+.btnDesc {
+   border: none;
+   border-radius: 5px;
+   background-color: var(--color-V_oscuro);
+   color: var(--color-Blanco);
+   margin: 5px auto;
+}
+.btnDesc:hover {
+   background-color: var(--color-Principal);
+   color: var(--color-V_oscuro);
+}
+.inputCustom {
+   border: 2px solid var(--color-V_claro);
+   background-color: var(--color-Blanco2);
+   border-radius: .5rem;
+   margin: 1rem auto;
+   text-align: right;
+}
+.inputs {
+   width: 100%;
+   border: 2px solid var(--color-V_claro);
+   background-color: var(--color-Blanco2);
+   border-radius: .5rem;
+   margin: .5rem auto;
+   text-align: right;
+}
+.inputs:hover, .inputCustom:hover {
+   border-color: var(--color-Principal);
+}
+.rightDown {
+   padding: 0;
+}
+.cuadro {
+   height: 95%;
+   border-radius: .5rem;
+   padding: .6rem;
+   margin: .5rem;
+   background-color: var(--color-V_oscuro); 
+}
+.mostrar{
+   margin-bottom: 1rem;
+   text-align: right;
+   color: var(--color-Principal);
+}
+.total {
+   color: var(--color-Blanco2);
+}
+.reset {
+   width: 90%;
+   border: none;
+   background-color: var(--color-Principal);
+}
+.reset:hover {
+   background-color: var(--color-V_claro);
+}
+
+@media only screen and (max-width: 769px) {
+   article {
+      margin: 20px !important;
+   }
+}
