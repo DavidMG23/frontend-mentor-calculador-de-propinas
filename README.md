@@ -6,6 +6,9 @@ Este es uno de los desafios de Frontend Mentor
 [link]:https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX
 
 La verdad que fue entretedido como para empezar a aplciar lo aprendido de js. Yo modifique un poco el resultado para que se viera un poco mas claro cuanto debe pagar cada persona y cual es el % de propina por c/u.
+
+[Demo]:https://davidmg23.github.io/frontend-mentor-calculador-de-propinas/
+
 ##### 📸 Capturas de pantalla
 
 ***
